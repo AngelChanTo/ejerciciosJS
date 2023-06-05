@@ -199,6 +199,7 @@ switch (elementoEvolucion){
     case "piedraTrueno":
         console.log("Tu Eevee ha evolucionado a Jolteon")
         break;
+        
     default:
         console.log("opcion Invalida");
 }
