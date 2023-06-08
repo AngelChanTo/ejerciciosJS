@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <p id="parrafo1"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quae labore, est tempora molestias corporis quod officiis fugit suscipit sunt atque, qui ad ratione nihil explicabo ea. Obcaecati, autem sint?</p>
+    <!-- <p id="parrafo1"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quae labore, est tempora molestias corporis quod officiis fugit suscipit sunt atque, qui ad ratione nihil explicabo ea. Obcaecati, autem sint?</p>
 
     <p class="parrafos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vero debitis repellendus, praesentium cum ipsum repellat similique ipsa qui magnam voluptate obcaecati dolorum cupiditate minima harum, reiciendis eaque aliquam veniam!</p>
 
@@ -17,7 +17,7 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas culpa ab porro architecto fugit dolorum corporis, laboriosam, nostrum amet iusto beatae reprehenderit exercitationem. Ducimus voluptas nostrum labore error velit.
     </p>
 
-    <button id ="botonCambiarColor">Cambiar color</button> 
+    <button id ="botonCambiarColor">Cambiar color</button>  -->
     <!-- boton con evento onclic en linea es una mala practica
     <button onclick="cambiaColor('green')" id="botonCambiarColor">Cambiar color</button> 
 
@@ -36,6 +36,43 @@
     <!--<script src="./script.js"></script>-->
     <!--<script src="./ejercicioTypeOf.js"></script>-->
     <!--<script src="./ejercicioGrupal.js"></script>-->
-    <script src="./ejercicioCiclos2.js"></script>
+
+
+    <!--Tarjeta de publicacion de producto-->
+    <!--espacion donde ira mi tarjeta-->
+
+    <form>
+        <label for="nombreProducto">Nombre del producto</label>
+        <input type="text" id="nombreProducto" placeholder="Ejemplo Sopa Maruchan">
+        
+        <br>
+        <br>
+
+        <label for="descripcionProducto">Descripcion</label>
+        <input type="text" id="descripcionProducto">
+
+        <br>
+        <br>
+
+        <label for="imagenProducto"> Imagen Producto</label>
+        <input type="file" id="imagenProducto">
+        <br>
+        <br>
+
+        
+    </form>
+    
+    <button id="agregarProducto">Agregar producto</button>
+        <br>
+        <br>
+        <br>
+    
+    
+    <div id="product-container">
+
+
+    </div>
+
+    <script src="./tarjetaProducto.js"></script>
 </body>
 </html>

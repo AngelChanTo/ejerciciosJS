@@ -1,0 +1,18 @@
+hablamos sobre las apis, ejemplos.
+
+cliente:
+
+Api: mesero, interfaz, intermediario, puente
+
+servidor: cocina
+
+cliente -> solicitud ->Api -> respuesta ->servidor
+
+fetch                  opcion(si)
+                       opcion(no)
+
+tipos de apis
+
+api nativa: api dom(existe en todos y cada uno de los navegadores), api del fetch(no es necesario agregar nada más al navegador), api de session storage, api local storage. 
+
+api externa: fake store api, pokeApi, rick y morty, correos de mexico...
